@@ -1,0 +1,150 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+#wp-myfavourites-post-list-datatable .dashicons-thumbs-up,
+#wp-myfavourites-favourite-posts-list-datatable .dashicons-thumbs-up,
+#wp-myfavourites-comment-list-datatable .dashicons-thumbs-up,
+#wp-myfavourites-favourite-comments-list-datatable .dashicons-thumbs-up,
+#wp-myfavourites-media-list-datatable .dashicons-thumbs-up,
+#wp-myfavourites-favourite-media-list-datatable .dashicons-thumbs-up
+{
+    cursor:pointer;
+}
+#wp-myfavourites-post-list-datatable .already-favourite,
+#wp-myfavourites-favourite-posts-list-datatable .already-favourite,
+#wp-myfavourites-comment-list-datatable .already-favourite,
+#wp-myfavourites-favourite-comments-list-datatable .already-favourite,
+#wp-myfavourites-media-list-datatable .already-favourite,
+#wp-myfavourites-favourite-media-list-datatable .already-favourite
+{
+    color:#0073aa;
+}
+.dashicons-editor-help
+{
+    cursor:pointer;
+    color:#0073aa;
+}
+#wp-myfavourites-favourite-posts-list-datatable .dt-center
+{
+    cursor: pointer;
+}
+#wp-myfavourites-favourite-comments-list-datatable .dt-center
+{
+    cursor: pointer;
+}
+#wp-myfavourites-favourite-media-list-datatable .dt-center
+{
+    cursor: pointer;
+}
+
+/*
+Posts Settings
+*/
+
+.wpmf-posts-settings #wpmf-posts-max
+{
+    margin-bottom: 15px;
+}
+.wpmf-posts-settings #wpmf-posts-max-slider
+{
+    cursor: pointer;
+}
+.wpmf-posts-settings #posts_settings_save_spinner
+{
+    display: none;
+}
+.wpmf-posts-settings #posts_settings_save_success_icon
+{
+    font-size: 32px;
+    color: green;
+    display: none;
+}
+/*
+Comments Settings
+*/
+.wpmf-comments-settings #wpmf-comments-max
+{
+    margin-bottom: 15px;
+}
+.wpmf-comments-settings #wpmf-comments-max-slider
+{
+    cursor: pointer;
+}
+.wpmf-comments-settings #comments_settings_save_spinner
+{
+    display: none;
+}
+.wpmf-comments-settings #comments_settings_save_success_icon
+{
+    font-size: 32px;
+    color: green;
+    display: none;
+}
+
+/*
+Media Settings
+*/
+
+.wpmf-media-settings #wpmf-media-max
+{
+    margin-bottom: 15px;
+}
+.wpmf-media-settings #wpmf-media-max-slider
+{
+    cursor: pointer;
+}
+.wpmf-media-settings #media_settings_save_spinner
+{
+    display: none;
+}
+.wpmf-media-settings #media_settings_save_success_icon
+{
+    font-size: 32px;
+    color: green;
+    display: none;
+}
+
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+} 
+
+.tablinks.active
+{
+    font-size: 16px;
+    font-weight: 600;
+    width: 25%;
+}
